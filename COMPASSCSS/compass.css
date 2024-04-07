@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Baloo+Bhai+2:wght@400..800&family=Bebas+Neue&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Maven+Pro:wght@400..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&family=Shadows+Into+Light&family=Single+Day&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&family=Teko:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400..700&family=Anta&family=Borel&family=Honk&family=Kode+Mono:wght@400..700&family=Lunasima:wght@400;700&family=Mooli&family=Onest:wght@100..900&family=Playpen+Sans:wght@100..800&family=Protest+Riot&family=Protest+Strike&family=Rubik+Glitch+Pop&family=Ysabeau+Infant:ital,wght@0,1..1000;1,1..1000&family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&family=Ysabeau+SC:wght@1..1000&display=swap');
+
+
+
+.poppins{
+    font-family: 'poppins', serif;
+}
+.tnr{
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+.bb2{
+    font-family: 'Baloo Bhai 2', serif;
+}
+.exo2{
+    font-family: 'Exo 2', serif;
+}
+.roboto{
+    font-family: 'Roboto', serif;
+}
+.single-day{
+    font-family: 'Single Day', serif;
+}
+.ubuntu{
+    font-family: 'Ubuntu', serif;
+}
+.roboto-slab{
+    font-family: 'Roboto Slab', serif;
+}
+.kanit{
+    font-family: kanit, serif;
+}
+.teko{
+    font-family: teko, serif;
+}
+.prot-gue{
+    font-family: "Protest Guerrilla", sans-serif;
+}
+.manrope{
+    font-family: Manrope, serif;
+}
+.coder-font{
+    font-family: Source Code Pro, serif;
+}
+.bebas-neue{
+    font-family: Bebas Neue, serif;
+}
+.anton{
+    font-family: anton, serif;
+}
+.dancing-script{
+    font-family: dancing script, serif;
+}
+.pacifico{
+    font-family: pacifico, serif;
+}
+.space-grotesk{
+    font-family: 'space grotesk', serif;
+}
+.varela-round{
+    font-family: 'Varela Round', serif;
+}
+.caveat{
+    font-family: Caveat, serif;
+}
+.maven-pro{
+    font-family: maven pro, serif;
+}
+.shadows-into-light{
+    font-family: "Shadows Into Light", cursive;
+}
+.satisfy{
+    font-family: satisfy, serif;
+}
+
+/* <------------ fonts done ------------> */
+.jar{
+    margin: 143px;
+overflow: unset;
+overflow-x: hide;
+    overflow-wrap: break-word;
+    
+}
+.jc-center{
+    justify-content: center;
+}
+.text-center{
+    text-align: center;
+}
+.item-center{
+    align-items: center;
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-dark{
+    background-color: rgb(55, 55, 55);
+}
+.bg-light{
+    background-color: #d6d6d6;
+}
+.bg-primary{
+    background-color: rgb(0, 106, 255);
+}
+.bg-red{
+    background-color: red;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-green{
+    background-color: rgb(0, 232, 0);
+}
+.bg-purple{
+    background-color: purple;
+}
+.bg-indigo{
+    background-color: indigo;
+}
+.bg-orange{
+    background-color: orange;
+}
+.bg-orangeRed{
+    background-color: orangered;
+}
+.bg-sapGreen{
+    background-color: rgb(0, 79, 0);
+}
+.bg-cyan{
+    background-color: cyan;
+}
+.bg-noRepeat{
+    background-repeat: no-repeat;
+}
+.bg-cover{
+    background-size: cover;
+}
+.bg-positionBottom{
+    background-position: bottom;
+}
+.bg-positionCenter{
+    background-position: center;
+}
+.bg-positionTop{
+    background-position: top;
+}
+.bg-positionLeft{
+    background-position: left;
+}
+.bg-positionRight{
+    background-position: right;
+}
+.bg-Clip{
+    background-clip: border-box;
+}
+.bg-gradientBP45{
+    background: linear-gradient(45deg, blue, pink,);
+}
+.yInfant{
+    font-family: "Ysabeau Infant", sans-serif;
+  }
+.ysabeau-sc {
+    font-family: "Ysabeau SC", sans-serif;}
+    .ysabeau-office {
+        font-family: "Ysabeau Office", sans-serif;}
+
+.rubik-glitch {
+  font-family: "Rubik Glitch Pop", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.protest-strike-regular {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .protest-riot-regular {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .playpen-sans {
+    font-family: "Playpen Sans", cursive;
+  }
+  .onest {
+    font-family: "Onest", sans-serif;
+  }
+  .mooli {
+    font-family: "Mooli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .lunasima {
+    font-family: "Lunasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lunasima-bold {
+    font-family: "Lunasima", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .kode-mono {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+
+  .honk {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+  }
+  .borel-regular {
+    font-family: "Borel", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.ar-one {
+  font-family: "AR One Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "ARRR" 10;
+}
